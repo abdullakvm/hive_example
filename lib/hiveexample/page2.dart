@@ -30,9 +30,9 @@ class _Page2State extends State<Page2> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Padding(
-          padding: const EdgeInsets.only(left: 40),
-          child: const Text(
+        title: const Padding(
+          padding: EdgeInsets.only(left: 40),
+          child: Text(
             'Registration Completed',
             style: TextStyle(
                 fontSize: 18,
